@@ -47,7 +47,6 @@ COPY ./bot_script/ ./
 
 # Создание каталога для базы данных SimpleX и определение Volume
 RUN mkdir -p /data/simplex_db
-VOLUME /data/simplex_db
 
 # Копирование файла конфигурации supervisord
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
