@@ -1,0 +1,13 @@
+{
+  "name": "simplex-n8n-bot-script",
+  "version": "1.0.0",
+  "description": "SimpleX bot script to interact with n8n",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.8", 
+    "ws": "^8.17.0"    
+  }
+}
