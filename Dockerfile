@@ -12,7 +12,8 @@ ARG SIMPLEX_VERSION="v6.3.3" # Пример версии, уточни акту�
 ARG SIMPLEX_VERSION="v6.3.3" # Используем версию со скриншота
 
 # Этап 1: Сборка SimpleX Chat CLI
-FROM alpine:3.18 AS simplex_builder # Alpine для легковесности скачивания
+# Alpine для легковесности скачивания
+FROM alpine:3.18 AS simplex_builder
 ARG SIMPLEX_VERSION
 ENV DEBIAN_FRONTEND=noninteractive
 
